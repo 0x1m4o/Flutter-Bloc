@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:learning_flutter_bloc/bloc-access/pages/userpage.dart';
+import 'package:learning_flutter_bloc/bloc-provider-value/pages/userpage.dart';
 import '../bloc/counter.dart';
 import '../bloc-provider/data_widget.dart';
 
