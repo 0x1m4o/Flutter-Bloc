@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'bloc-provider/pages/homepage.dart';
-import './bloc-provider/bloc/counter.dart';
+import './pages/homepage.dart';
+import './bloc/counter.dart';
 
 void main() {
   runApp(MyApp());
