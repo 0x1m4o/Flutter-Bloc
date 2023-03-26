@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:learning_flutter_bloc/multi-bloc-provider/bloc/theme.dart';
-import './multi-bloc-provider/bloc/counter.dart';
+import 'package:learning_flutter_bloc/multi-bloc-listener/bloc/theme.dart';
+import 'multi-bloc-listener/bloc/counter.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import './multi-bloc-provider/pages/app.dart';
+import 'multi-bloc-listener/pages/app.dart';
 
 void main() {
   runApp(MyApp());

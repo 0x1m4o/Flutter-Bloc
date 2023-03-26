@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:learning_flutter_bloc/bloc-access/pages/userpage.dart';
+import '../pages/userpage.dart';
 import '../bloc-provider/data_widget.dart';
 
 class HomePage extends StatelessWidget {
