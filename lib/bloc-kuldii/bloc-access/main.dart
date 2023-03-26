@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import './bloc-access/pages/homepage.dart'; // Named Route, Anonymous Route, Generated Route, Global Route
-// import './bloc-access/pages/userpage.dart'; // Named Route
-import './bloc-access/bloc/counter.dart';
+import './pages/homepage.dart'; // Named Route, Anonymous Route, Generated Route, Global Route
+// import './pages/userpage.dart'; // Named Route
+import './bloc/counter.dart';
 // import 'package:flutter_bloc/flutter_bloc.dart'; // Named Route and Anonymous Route
 // import '../bloc-access/routes/route.dart'; // Generated
 // import './bloc-access/pages/not_found.dart'; // Generated

@@ -3,12 +3,15 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import '../bloc/counter.dart';
 
 class UserPage extends StatelessWidget {
+  static const nameRoute = '/user-page';
+
+  const UserPage({super.key});
   @override
   Widget build(BuildContext context) {
     Counter counter = context.read<Counter>();
     return Scaffold(
       appBar: AppBar(
-        title: Text('User Page'),
+        title: const Text('User Page'),
       ),
       body: Center(
         child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
@@ -16,7 +19,7 @@ class UserPage extends StatelessWidget {
             builder: (context, state) {
               return Text(
                 '$state',
-                style: TextStyle(fontSize: 40),
+                style: const TextStyle(fontSize: 40),
               );
             },
             bloc: counter,

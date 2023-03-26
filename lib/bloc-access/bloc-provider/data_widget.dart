@@ -26,7 +26,7 @@ class DataWidget extends StatelessWidget {
                     myCounter.kurangData();
                   },
                   borderRadius: BorderRadius.circular(15),
-                  child: SizedBox(
+                  child: const SizedBox(
                       height: 100,
                       width: 70,
                       child: Center(
@@ -43,7 +43,7 @@ class DataWidget extends StatelessWidget {
                   child: Center(
                     child: Text(
                       '$state',
-                      style: TextStyle(fontSize: 35),
+                      style: const TextStyle(fontSize: 35),
                     ),
                   ),
                 ),
@@ -56,7 +56,7 @@ class DataWidget extends StatelessWidget {
                     myCounter.tambahData();
                   },
                   borderRadius: BorderRadius.circular(15),
-                  child: SizedBox(
+                  child: const SizedBox(
                       height: 100,
                       width: 70,
                       child: Center(
@@ -69,16 +69,16 @@ class DataWidget extends StatelessWidget {
         },
         listener: (context, state) {
           if (myCounter.next! >= 10) {
-            ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+            ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
                 duration: Duration(milliseconds: 500),
                 content: Text('Sudah mencapai batas harian pembelian')));
           } else {
             if (state == myCounter.current! - 1) {
-              ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+              ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
                   duration: Duration(milliseconds: 500),
                   content: Text('Berhasil Di Kurangkan')));
             } else {
-              ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+              ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
                   duration: Duration(milliseconds: 500),
                   content: Text('Berhasil Di Tambahkan')));
             }
