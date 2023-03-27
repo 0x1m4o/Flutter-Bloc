@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import './bloc-selector/pages/homepage.dart';
-import './bloc-selector/bloc/userBloc.dart';
+import './pages/homepage.dart';
+import './bloc/userBloc.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 void main() {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:learning_flutter_bloc/multi-bloc-listener/bloc/theme.dart';
+import '../bloc/theme.dart';
 import '../bloc/counter.dart';
 
 class HomePage extends StatelessWidget {
